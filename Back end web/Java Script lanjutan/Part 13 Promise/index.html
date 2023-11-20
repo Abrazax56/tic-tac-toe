@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:type" content=""/>
+    <meta property="og:url" content=""/>
+    <title>Document</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      .profile {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 1px solid black;
+      }
+      .list {
+        list-style: none;
+        visibility: hidden;
+      }
+    </style>
+    <link rel="stylesheet" href="" media="all"/>
+  </head>
+  <body>
+    <form name="form">
+      <label for="input">Github Stalker</label>
+      <input type="text" placeholder="masukan username github" class="input"/>
+      <button type="submit">Stalk</button>
+    </form>
+    <ul class="list">
+      <li class="pp"><img class="profile" alt="profile"/></li>
+      <li class="nama"></li>
+      <li class="login"></li>
+      <li class="id"></li>
+      <li class="bio"></li>
+      <li class="pr"></li>
+      <li class="following"></li>
+      <li class="followers"></li>
+      <a href=""><button>Other stalk</button></a>
+    </ul>
+    <code>
+      body {
+        color: white;
+      }
+    </code>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

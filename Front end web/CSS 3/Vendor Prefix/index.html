@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Prefixes</title>
+    <style>
+      body {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .satu {
+        width: 500px;
+        filter: blur(100%);
+        
+      }
+      .dua {
+        width: 500px;
+        filter: drop-shadow(5px 5px 10px black) blur(10px);
+        position: absolute;
+        z-index: 1;
+      }
+      .dua:hover {
+        filter: drop-shadow(5px 5px 10px black) blur(0);
+        transition: .5s;
+      }
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+    <img class="satu" src="bg2.jpg" alt="beni"/>
+    <img class="dua" src="bg2.jpg" alt="beni"/>
+    
+  </body>
+</html>

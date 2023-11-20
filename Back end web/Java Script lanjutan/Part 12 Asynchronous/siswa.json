@@ -1,0 +1,38 @@
+[
+  {
+    "nama" : "beni",
+    "umur" : 18,
+    "pendidikan" : "smk",
+    "alamat" : {
+      "desa" : "tinggarjaya",
+      "jalan" : {
+        "no" : 4,
+        "namaJalan" : "Ahmad Yani"
+      }
+    }
+  },
+  {
+    "nama" : "ahmad",
+    "umur" : 18,
+    "pendidikan" : "smk",
+    "alamat" : {
+      "desa" : "tegalsari",
+      "jalan" : {
+        "no" : 4,
+        "namaJalan" : "Kalimantan"
+      }
+    }
+  },
+  {
+    "nama" : "rusli",
+    "umur" : 17,
+    "pendidikan" : "sma",
+    "alamat" : {
+      "desa" : "tinggarjaya",
+      "jalan" : {
+        "no" : 4,
+        "namaJalan" : "Ahmad Yani"
+      }
+    }
+  }
+]

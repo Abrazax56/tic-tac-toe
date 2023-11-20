@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <style>
+      p {
+        font-size: 20px;
+        text-align: center;
+      }
+      /*
+      scale(angka), scaleX(angka), scaleY(angka)
+      rotate(deg), rotateX(deg), rotateY(deg)
+      skew(deg), skewX(deg), skewY(deg)
+      translate(px), translateX(px), translateY(px)
+      */
+      .kotak {
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        margin: 50px auto 0;
+        transition: 1000ms;
+      }
+      .kotak:hover {
+        transform: translate(50px, 100px) rotate(180deg) scale(1.5);
+      }
+      .container {
+        margin-top: 300px;
+      }
+      .kotakk {
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+        background-color: salmon;
+        transition: all .6s ease-in;
+      }
+      .kotak-1 { transition: all 3s ease; } /*ease*/
+      .kotak-2 { transition: all 3s ease-in; } /*ease-in*/      
+      .kotak-3 { transition: all 3s ease-out; }
+      .kotak-4 { transition: all 3s ease-in-out; }
+      .kotak-5 { transition: all 3s linear; }
+      .kotak-6 { transition: all 1s cubic-bezier(0.24, -0.35, 0.78, 1.40); }
+      .container:hover .kotakk {
+        transform: translateX(400px) rotate(600deg);
+        background-color: black;
+      }
+      .wrapper {
+        margin-top: 300px;
+        margin-bottom: 300px;
+        width: 98%;
+        border: 2px solid black;
+      }
+      .kotakkk {
+        width: 200px;
+        height: 200px;
+        background-color: lime;
+        margin: 5px;
+        transition: 3s 2s;
+      }
+      .wrapper:hover .kotakkk {
+        transform: rotate(180deg) translateX(500px);
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="kotak"></div>
+    <p>ke Garena Indonesia yang bisa heheheheheh ke Garena Indonesia yang bisa heheheheheh ke wilayah e garena bisa pake email web web website web website web yang e sapa we do not save the earth hour of what the second annual burton ada udah ada yang bisa heheheheheh waktu untuk menjadi lebih baik dari pada di dalam e sapa yang aku mah udah biasa yang tidak ada komentar untuk temen gue ya suruh contact me aja saudaramu yang tidak dapat melihat dan mendengar</p>
+    
+    <div class="container">
+      <div class="kotakk kotak-1"></div>
+      <div class="kotakk kotak-2"></div>
+      <div class="kotakk kotak-3"></div>
+      <div class="kotakk kotak-4"></div>
+      <div class="kotakk kotak-5"></div>
+      <div class="kotakk kotak-6"></div>
+    </div>
+    
+    <div class="wrapper">
+      <div class="kotakkk"></div>
+    </div>
+  </body>
+</html>

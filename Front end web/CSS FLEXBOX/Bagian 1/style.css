@@ -1,0 +1,18 @@
+.container {
+  width: 600px;
+  height: 200px;
+  border: 5px solid grey;
+  margin: 50px auto;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.items {
+  background-color: rgba(255,20,10,1);
+  margin: 2px;
+  flex: 1;
+}
+div .dua {
+  flex: 2;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"/>
+    <title>CSS 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <style>
+      @font-face {
+        font-family: "Alex Brush";
+        src: url('AlexBrush-Regular.ttf') format('truetype');
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      /*Radial Gradient*/
+      .container {
+        width: 600px;
+        height: 400px;
+        background-image: radial-gradient(
+        circle farthest-side at top left,
+        red,
+        blue
+        );
+      }
+      /*@font-face
+      sintaks lengkap
+      @font-face {
+        font-family: 'namaFontBaru';
+        src: url('lokasi/file/fontBaru.eot');
+        src: url('lokasi/file/fontBaru.eot#iefix') format('embedded-opentype'),
+             url('lokasi/file/fontBaru.woff2') format('woff2'),
+             url('lokasi/file/fontBaru.woff') format(woff),
+             url('lokasi/file/fontBaru.ttf') format('truetype'),
+             url('lokasi/file/fontBaru.svg#svgFontName') format('svg');
+      }
+        */
+      .container-2 {
+        margin-top: 200px;
+        margin-bottom: 200px;
+        font-size: 3rem;
+        font-family: 'Alex Brush';
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container">
+      
+    </div>
+    
+    <div class="container-2">Hello World</div>
+    
+  </body>
+</html>
